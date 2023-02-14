@@ -14,12 +14,12 @@ uintptr_t g_size;
 std::unique_ptr<char[]> g_data;
 
 uintptr_t g_register_func = 0x892010;
-uintptr_t g_register_native = 0x2AE1AF8;
-uintptr_t g_system = 0x2AE17A0;
+uintptr_t g_register_native = 0x2AE1A14;
+uintptr_t g_system = 0x2AE16BC;
 uintptr_t g_namespaces_start = 0xEDE406;
 uintptr_t g_namespaces_end = 0xEDE8AD;
 std::vector<uintptr_t> g_namespaces;
-uintptr_t g_last = 0x3265E98;
+uintptr_t g_last = 0x3265DA8;
 
 std::vector<std::vector<uintptr_t>> g_dump_hashes;
 
